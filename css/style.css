@@ -17,12 +17,12 @@
 }
 
 .light-theme {
-  --bg-color: #f4f4f8;
-  --text-color: #333;
-  --primary-color: #6200ea;
-  --secondary-color: #03dac6;
-  --accent-color: #ff4081;
-  --card-bg: #fff;
+  --bg-color: #d3eef3;
+  --text-color: #282727;
+  --primary-color: #9758f0;
+  --secondary-color: #058484;
+  --accent-color: #8e0b37da;
+  --card-bg: #b2aeae;
 }
 body {
   background-color: var(--bg-color);
