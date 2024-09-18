@@ -25,9 +25,9 @@ function changeTheme(){
     const icon = theme_toggle.querySelector('i');
     
     if (document.body.classList.contains('dark-theme')) {
-        icon.textContent = 'brightness_2'; // dark mode icon
+        icon.textContent = 'brightness_7'; // dark mode icon
     } else {
-        icon.textContent = 'brightness_7'; // light mode icon
+        icon.textContent = 'brightness_2'; // light mode icon
     }
 }
 
