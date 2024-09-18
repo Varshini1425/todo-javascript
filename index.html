@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Todo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="dark-theme">
+    <div class="theme-toggle">
+      <i class="material-icons">brightness_2</i>
+    </div>
+    <div class="container">
+      <h1 class="center-align">Todo List</h1>
+      <div class="row">
+        <form id="todo-form" class="col s12">
+          <div class="input-field">
+            <input id="todo-input" type="text" class="validate" />
+            <label for="todo-input">Enter your task</label>
+          </div>
+          <div class="button-group">
+            <button
+              id="add-btn"
+              class="btn waves-effect waves-light"
+              type="submit"
+            >
+              <i class="material-icons left">add</i>Add
+            </button>
+            <button
+              id="update-btn"
+              class="btn waves-effect waves-light"
+              type="button"
+              disabled
+            >
+              <i class="material-icons left">edit</i>Update
+            </button>
+            <button
+              id="clear-btn"
+              class="btn waves-effect waves-light"
+              type="button"
+            >
+              <i class="material-icons left">clear_all</i>Clear All
+            </button>
+          </div>
+        </form>
+      </div>
+      <ul id="todo-list" class="collection">
+        <!-- Todo items will be added here dynamically -->
+      </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
